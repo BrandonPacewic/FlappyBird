@@ -30,8 +30,6 @@ def main():
             if file_name.endswith(".cs"):
                 files.append(os.path.join(root, file_name))
 
-    print(files)
-
     # Test each file
     for file in files:
         previous_file_state = open(file, "r").read()
