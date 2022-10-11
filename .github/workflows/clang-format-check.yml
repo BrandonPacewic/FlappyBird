@@ -5,13 +5,10 @@ name: Clang Format Check
 on:
   push:
     branches:
-      - '**'
+      - '**' # All branches
   pull_request:
     branches:
       - 'main'
-  workflow_dispatch:
-    tags:
-        description: 'Test'
 jobs:
   build:
     runs-on: ubuntu-latest
