@@ -21,7 +21,7 @@ New Features:
 
 Enhancements:
 
-- Cleanup of script `Flying.cs` now called `Movement.cs` [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
+- `Flying.cs` replaced with [`Movement.cs`](https://github.com/TigardHighGDC/FlappyBird/blob/main/Assets/Scripts/Movement.cs) [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
 
 Bug Fixes:
 
