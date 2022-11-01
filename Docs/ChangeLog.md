@@ -6,8 +6,26 @@ A bi-weekly log of project changes and updates, if no changes were made in a giv
 
 | Date | Version |
 | - | - |
+| [10/24/2022 - 11/06/2022](#10242022---11062022) | 0.3 |
 | [10/10/2022 - 10/23/2022](#10102022---10232022) | 0.2 |
 | [9/25/2022 - 10/9/2022](#9252022---1092022) | 0.1 |
+
+## 10/24/2022 - 11/06/2022
+
+New Features:
+
+- Spawning pipes [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
+  - Moving pipes across the screen.
+- Bird Collision with pipes [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
+  - Bird now dies (gets deleted) when colliding with pipes.
+
+Enhancements:
+
+- Cleanup of script `Flying.cs` now called `Movement.cs` [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
+
+Bug Fixes:
+
+- None
 
 ## 10/10/2022 - 10/23/2022
 
@@ -17,13 +35,13 @@ New Features:
 
 Enhancements:
 
-- Readme updated.
+- Readme updated [#10](https://github.com/TigardHighGDC/FlappyBird/pull/10).
   - Extremely basic info added, just to get away from the template readme.
-- Codeowners now requests review from team members of `@ogpcleaders` respectively [#11](https://github.com/TigardHighGDC/GameDevTemplate/pull/11).
+- Codeowners now requests review from team members of `@ogpcleaders` respectively [#11](https://github.com/TigardHighGDC/FlappyBird/pull/11).
 
 Bug Fixes:
 
-- `clang-format-check.yml` now properly checks all `.cs` files [#9](https://github.com/TigardHighGDC/GameDevTemplate/pull/9).
+- `clang-format-check.yml` now properly checks all `.cs` files [#9](https://github.com/TigardHighGDC/FlappyBird/pull/9).
   - No longer using the official `clang-format` action, now using a new python script.
 
 ## 9/25/2022 - 10/9/2022
