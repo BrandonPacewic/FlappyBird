@@ -14,6 +14,8 @@ A bi-weekly log of project changes and updates, if no changes were made in a giv
 
 New Features:
 
+- Started the GitHub Pages website [#14](https://github.com/TigardHighGDC/FlappyBird/pull/14).
+  - Reset the `gh-pages` branch, created `index.html` and cleaned up `.gitignore`.
 - Spawning pipes [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
   - Moving pipes across the screen.
 - Bird Collision with pipes [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
