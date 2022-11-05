@@ -23,6 +23,7 @@ New Features:
 
 Enhancements:
 
+- Extra info added to `README.md` [#16](https://github.com/TigardHighGDC/FlappyBird/pull/16).
 - `Flying.cs` replaced with [`Movement.cs`](https://github.com/TigardHighGDC/FlappyBird/blob/main/Assets/Scripts/Movement.cs) [#13](https://github.com/TigardHighGDC/FlappyBird/pull/11).
 
 Bug Fixes:
