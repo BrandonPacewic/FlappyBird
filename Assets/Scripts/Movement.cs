@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D rb;
     public float force = 800f;
     public bool canJump = true;
+    public int count;
 
     private void Update()
     {
@@ -30,6 +31,11 @@ public class Movement : MonoBehaviour
         if (trigger.gameObject.tag == "end")
         {
             Destroy(gameObject);
+        }
+        else if (trigger.gameObject.tag == "Counter")
+        {
+            count += 1;
+            Debug.Log(count);
         }
     }
 }
