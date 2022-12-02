@@ -4,12 +4,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Movement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float force = 800f;
     public bool canJump = true;
+
     public int count;
 
     private void Update()
